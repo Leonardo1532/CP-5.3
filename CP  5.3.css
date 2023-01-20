@@ -1,0 +1,65 @@
+.HeaderSection {
+    height: 14vh;
+    background-color: rgb(230, 230, 22);
+}
+
+.HeaderPart {
+    height: 7vh;
+    text-align: center;
+}
+
+/* .SearchSection {
+} */
+
+#SearchBar {
+    height: 3.5vh;
+    width: 25vw;
+    margin-top: 1.8vh;
+    margin-bottom: 1.8vh;
+}
+
+.NavBar {
+    text-align: center;
+    height: 7vh;
+    border-style: solid;
+    line-height: 6vh;
+}
+
+.NavOptions {
+    vertical-align: middle;
+    line-height: normal;
+    margin-left: 2vw;
+}
+
+.Content {
+    height: 86vh;
+    background-color: rgb(177, 178, 179);
+    text-align: center;
+}
+
+.Benefits {
+    display: inline-block;
+    height: 15vh;
+    width: 80.4 vw;
+    margin-top: 5vh;
+    border-radius: 0.5vw;
+    background-color: rgb(255, 255, 255);
+    border-left: solid rgb(22, 78, 199) 0.4vw;
+}
+
+.FirtsOpition, .Offer {
+    float: left;
+    width: 20vw;
+    height: 15vh;
+    text-align: left;
+}
+.FirtsOpition{
+    border-right: solid rgb(146, 144, 144) 0.3vw;
+}
+
+.Title{
+margin-top: 3.8vh;
+}
+.SubTitle, .Title{
+margin-left: 2vw;
+}
