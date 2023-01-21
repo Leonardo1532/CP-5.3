@@ -36,31 +36,19 @@
 
 .Benefits {
     display: inline-block;
-    height: 10vh;
-    width: 60.4vw;
+    height: 17vh;
+    width: 30vw;
     margin-top: 10vh;
-    border-radius: 0.5vw;
-    background-color: rgb(255, 255, 255);
-    border-left: solid rgb(22, 78, 199) 0.4vw;
+    border-radius: 0.9vw;
+    background-color: rgb(204, 228, 22);
+    border-radius: 1vw;
 }
 
-.FirtsOpition,
-.Offer {
-    float: left;
-    width: 15vw;
-    height: 10vh;
-    text-align: left;
-}
-
-.FirtsOpition {
-    border-right: solid rgb(146, 144, 144) 0.3vw;
-}
-
-.Title {
-    margin-top: 2.8vh;
-}
-
-.SubTitle,
-.Title {
+.textoPrincipal {
+    height: 8vh;
+    width: 25vw;
+    font-size: 1.5cm;
+    margin-top: 1vh;
     margin-left: 2vw;
+    font-family: Arial, Helvetica, sans-serif;
 }
