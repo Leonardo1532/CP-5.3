@@ -43,7 +43,7 @@
             height: auto;
         }
     </style>
-    <link rel="stylesheet" href="./CP  5.3.css">
+    <link rel="stylesheet" href="./cadastrar.css">
 </head>
 
 <body>
@@ -59,30 +59,38 @@
             <a href="./moda.html" class="NavOptions">Moda</a>
             <a href="./vender.html" class="NavOptions">Vender</a>
             <a href="./contato.html" class="NavOptions">Contato</a>
-            <a href="./cadastrar.html" class="NavOptions">Cadastrar</a>
         </section>
     </section>
     <section class="Content">
-        <section class="Benefits">
-            <section class="FirtsOpition">
-                <h3 class="Title">Pagamento rápido e seguro</h3>
-                <h4 class="SubTitle">com mercado pago</h4>
-            </section>
-            <section class="Offer">
-                <h3 class="Title">Em até 10 parcelas sem juros</h3>
-                <h4 class="SubTitle">ver mais</h4>
-            </section>
-            <section class="Offer">
-                <h3 class="Title">Parcelamento sem cartão</h3>
-                <h4 class="SubTitle">conheça o mercado crédito</h4>
-            </section>
-            <section class="Offer">
-                <h3 class="Title">Via Pix</h3>
-                <h4 class="SubTitle">ver mais</h4>
-            </section>
-        </section>
-        <section class="MarketItens Content">
-
+        <section class="Register">
+            <form class="formulario">
+                <div class="cadastro">
+                    <label for="cadastroNome">Nome</label>
+                    <input type="text" name="nome" id="cadastroNome" placeholder="Ex: Leonardo Santos Silva" />
+                </div>
+                <div class="cadastro">
+                    <label for="cadastroEmail">Email</label>
+                    <input type="text" name="email" id="cadastroEmail" placeholder="Ex: 1234leonardo_s@gmail.com" />
+                </div>
+                <div class="cadastro">
+                    <label for="cadastroSenha">Senha</label>
+                    <input type="text" name="senha" id="cadastroSenha" />
+                </div>
+                <div class="cadastro">
+                    <label for="cadastroRepetirSenha">Repetir a Senha</label>
+                    <input type="text" name="senha" id="cadastroRepetirSenha" />
+                </div>
+                <div class="cadastro">
+                    <label for="cadastroSexo">Sexo</label>
+                    <Select name="sexo" id="cadastroSexo">
+                        <option value="Masculino">Masculino</option>
+                        <option value="Feminino">Feminino</option>
+                    </Select>
+                </div>
+                <div class="cadastro">
+                    <input type="submit" id="bottom">
+                </div>
+            </form>
         </section>
     </section>
 </body>
