@@ -44,6 +44,10 @@
     border-radius: 1vw;
 }
 
+.Benefits:hover{
+    border: solid rgb(22, 78, 199)
+}
+
 .textoPrincipal {
     height: 8vh;
     width: 25vw;
