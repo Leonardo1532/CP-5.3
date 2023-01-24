@@ -27,11 +27,13 @@
     line-height: normal;
     margin-left: 2vw;
 }
-.NavOptions:hover{
+
+.NavOptions:hover {
     transition-duration: 0.6s;
     padding: 1%;
     background-color: rgb(22, 78, 199);
 }
+
 .Content {
     height: 86vh;
     background-color: rgb(177, 178, 179);
@@ -66,11 +68,10 @@
     margin-left: 2vw;
 }
 
-.contents{
-width: 80.5vw;
-margin-top: 10vh;
-display: inline-block;
-
+.contents {
+    width: 80.5vw;
+    margin-top: 10vh;
+    display: inline-block;
 }
 
 .MarketItem {
@@ -83,13 +84,22 @@ display: inline-block;
     float: left;
 }
 
-.MarketItem:hover{
+.MarketItem h4 {
+    display: none;
+}
+
+.MarketItem:hover h4 {
+    display: block;
+}
+
+.MarketItem:hover {
     height: 300px;
     transition-duration: 0.6s;
     background-color: yellow;
     border-left: solid rgb(22, 78, 199);
     border-right: solid rgb(22, 78, 199);
     border-bottom: solid rgb(22, 78, 199);
+    border-top: solid rgb(22, 78, 199);
 }
 
 .imagens {
@@ -98,9 +108,10 @@ display: inline-block;
     border-bottom: solid rgb(177, 178, 179) 0.15vw;
 }
 
-.SubTitle2{
+.SubTitle2 {
     text-align: center;
 }
-.SubTitle3{
-    text-decoration:line-through;
+
+.SubTitle3 {
+    text-decoration: line-through;
 }
